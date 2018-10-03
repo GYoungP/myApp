@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>MyApp</title>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google material icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="../assets/css/style.css?v=css_ver2">
+
+    <script src="../assets/js/lib/jquery-1.12.2.min.js"></script>
+    <script src="../assets/js/lib/jquery.easing.1.3.js"></script>
+    <script src="../assets/js/lib/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+    <script src="../assets/js/script.js?v=js_ver2"></script>
+
+    <!--[if lt IE 9]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+    <!--[end if]-->
+</head>
+<body>
+
+<div id="wrap">
+
+    <header class="header">
+        <div class="top-header">
+            <div class="logo">
+                <a href="#!"><img src="https://www.genesis.com/content/dam/genesis/kr/images/common/logo_header.png" alt=""></a>
+            </div>
+            <div class="gnb">
+                <ul class="nav">
+                    <li class="nav-item item">
+                        <a href="#!" class="nav-link">the brand</a>
+                        <ul class="dropdown dropdown-item">
+                            <li class="drop-item">
+                                <a href="#!">브랜드소개</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">뉴스 및 이벤트</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">concept car</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">g90 special edition</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">제네시스 스튜디오</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">2018 부산 모터쇼</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#!" class="nav-link">models</a>
+                        <ul class="dropdown dropdown2 dropdown-item">
+                            <li class="drop-item">
+                                <a href="#!">
+                                    <strong>g70</strong>
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_g70.png" alt="" class="m-off">
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_g70_on.png" alt="" class="m-on">
+                                </a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">
+                                    <strong>g80</strong>
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_g80.png" alt="" class="m-off">
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_g80_on.png" alt="" class="m-on">
+                                </a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">
+                                    <strong>g80 sport</strong>
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_g80sport.png" alt="" class="m-off">
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_g80sport_on.png" alt="" class="m-on">
+                                </a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">
+                                    <strong>eq900</strong>
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_eq900.png" alt="" class="m-off">
+                                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/gnb_eq900_on.png" alt="" class="m-on">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#!" class="nav-link">shopping</a>
+                        <div class="dropdown dropdown3 dropdown-item">
+                            <ul class="dropdown3-1">
+                                <li class="drop-item">
+                                    <a href="#!">제네시스 구매 프로그램</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#!">견적 내기</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#!">구매 상담</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#!">시승 신청</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#!">제네시스 강남</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#!">전시장 / 센터 찾기</a>
+                                </li>
+                            </ul>
+                            <ul class="dropdown3-2">
+                                <li class="drop-item">
+                                    <a href="#!">카탈로그/가격표 다운로드</a>
+                                </li>
+                                <li class="drop-item">
+                                    <a href="#!">faq</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item item">
+                        <a href="#!" class="nav-link">owners</a>
+                        <ul class="dropdown dropdown-item">
+                            <li class="drop-item">
+                                <a href="#!">제네시스 멤버십</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">제네시스 커넷티드 서비스</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">제네시스 사회공헌 프로그램</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">제네시스 오너스 몰</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#!">오너스 매뉴얼 다운로드</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="r-menu">
+                <div class="search">
+                    <div class="input-wrap">
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/common/ico_search_w.png" alt="">
+                        <input type="text" id="sch-input" placeholder="SEHARCH" maxlength="16">
+                    </div>
+                </div>
+                <div class="quick item">
+                    <a href="#!">quick link <i class="material-icons">keyboard_arrow_down</i></a>
+                    <ul class="drop-menu dropdown-item">
+                        <li>
+                            <a href="#!">faq</a>
+                        </li>
+                        <li>
+                            <a href="#!">고객센터</a>
+                        </li>
+                        <li>
+                            <a href="#!">다운로드 센터</a>
+                        </li>
+                        <li>
+                            <a href="#!">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#!">회원가입</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang item">
+                    <a href="#!">한국어 <i class="material-icons">keyboard_arrow_down</i></a>
+                    <ul class="drop-menu dropdown-item">
+                        <li>
+                            <a href="#!">english</a>
+                        </li>
+                        <li>
+                            <a href="#!">한국어</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-visual">
+            <div class="visual-wrap">
+                <div class="visual-bg">
+                    <img src="https://www.genesis.com/content/dam/genesis/kr/images/gatemain/kv/genesis-kv-180824-pc.jpg" alt="">
+                </div>
+                <div class="visual-content">
+                    <h1>genesis</h1>
+                    <p>제네시스의 J.D. Power 2018 신차 품질 조사 부문 수상을 기념하여<br>
+                        약 2주간의 특별한 시승 기회를 선사합니다.</p>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#!">시승 신청하기</a>
+                        </li>
+                        <li>
+                            <a href="#!">g80 2019 영상보기</a>
+                        </li>
+                        <li>
+                            <a href="#!">g80 2019 상세보기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-section1">
+            <ul class="models-list">
+                <li>
+                    <a href="#!">
+                        <h2>genesis g70</h2>
+                        <span class="s-text">더 알아보기</span>
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-g70-main.png" alt="" class="m-off">
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-g70-main-on.png" alt="" class="m-on">
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <h2>genesis g70</h2>
+                        <span class="s-text">더 알아보기</span>
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-g80-main.png" alt="" class="m-off">
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-g80-main-on.png" alt="" class="m-on">
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <h2>genesis g70</h2>
+                        <span class="s-text">더 알아보기</span>
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-g80sport-main.png" alt="" class="m-off">
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-g80sport-main-on.png" alt="" class="m-on">
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <h2>genesis g70</h2>
+                        <span class="s-text">더 알아보기</span>
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-eq900-main.png" alt="" class="m-off">
+                        <img src="https://www.genesis.com/content/dam/genesis/kr/images/gate_test/genesis-eq900-main-on.png" alt="" class="m-on">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-section2">
+            <h3>뉴스 및 이벤트</h3>
+            <div class="news-event">
+                <ul class="news-list">
+                    <li>
+                        <a href="#!"></a>
+                        <div class="img">
+                            <img src="https://www.genesis.com/content/dam/genesis/kr/images/main_news_event/GENESIS-Experience-event-580x340.jpg" alt="">
+                        </div>
+                        <dl>
+                            <dt>J.D. Power 2018 신차 품질 조사 부문 수상 기념 GENESIS Experience 신청하기</dt>
+                            <dd>제네시스 J.D. Power 수상 기념, 약 2주간의 시승으로 그 뛰어난 품질을 체험해보세요. 이벤트 기간 동안 차수에 맞춰서 신청하신 분들 중 선정된 분들께 시승 기회를 드립니다. </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                        <div class="img">
+                            <img src="https://www.genesis.com/content/dam/genesis/kr/images/Brandnews/20180911/genesis-busan-580X340.jpg" alt="">
+                        </div>
+                        <dl>
+                            <dt>제네시스 브랜드, 제23회 부산국제영화제 공식 후원</dt>
+                            <dd>제네시스 브랜드가 다음달 4일(목)부터 13일(토)까지 열리는 제23회 부산국제영화제(23rd Busan International Film Festival)를 공식 후원한다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                        <div class="img">
+                            <img src="https://www.genesis.com/content/dam/genesis/kr/images/Brandnews/20180901/genesis-assurance-v02-580x340.jpg" alt="">
+                        </div>
+                        <dl>
+                            <dt>제네시스 어슈어런스 할부</dt>
+                            <dd>차대차 사고 및 단독사고를 보장하는 특별 고객 케어 프로그램</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                        <div class="img">
+                            <img src="https://www.genesis.com/content/dam/genesis/kr/images/Brandnews/20180827/genesis-2019-g80-580x340.jpg" alt="">
+                        </div>
+                        <dl>
+                            <dt>제네시스, [2019년형 G80] 출시</dt>
+                            <dd>제네시스 브랜드가 지능형 안전기술을 전 모델에 기본 적용하고 신규 사양을 탑재해 안전성과 편의성을 크게 높인 [2019년형 G80(지에이티)]를 출시했다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                        <div class="img">
+                            <img src="https://www.genesis.com/content/dam/genesis/kr/images/main_news_event/genesis-monterey-580x340.jpg" alt="">
+                        </div>
+                        <dl>
+                            <dt>제네시스 브랜드, 세계적인 자동차 전시회 [몬터레이 카 위크 2018] 참가</dt>
+                            <dd>제네시스가 다양한 럭셔리카들이 한 곳에 모이는 세계적인 자동차 전시회에 참가해 우아한 존재감을 뽐냈다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                        <div class="img">
+                            <img src="https://www.genesis.com/content/dam/genesis/kr/images/main_news_event/GENESIS-Experience-580x340.jpg" alt="">
+                        </div>
+                        <dl>
+                            <dt>제네시스 브랜드, 대규모 시승 이벤트 [GENESIS EXPERIENCE] 실시</dt>
+                            <dd>제네시스 브랜드가 2018 제이디파워(J.D.Power) 신차품질조사 전체 브랜드 1위 달성 기념으로 G70과 G80의 우수한 상품성을 직접 체험할 수 있는 고객 시승 이벤트를 마련했다.</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-section3">
+            <h4>DISCOVER GENESIS.</h4>
+            <div class="sns-icon">
+                <a href="#!"><img src="https://www.genesis.com/content/dam/genesis/kr/images/common/sns_icon_fb.png" alt=""></a>
+                <a href="#!"><img src="https://www.genesis.com/content/dam/genesis/kr/images/common/sns_icon_inst.png" alt=""></a>
+                <a href="#!"><img src="https://www.genesis.com/content/dam/genesis/kr/images/common/sns_icon_ytb.png" alt=""></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="top-footer">
+            <ul class="footer-menu">
+                <li>
+                    <a href="#!">사이트맵</a>
+                </li>
+                <li>
+                    <a href="#!">보증안내</a>
+                </li>
+                <li>
+                    <a href="#!">저작권안내</a>
+                </li>
+                <li>
+                    <a href="#!"><strong>개인정보 처리방침</strong></a>
+                </li>
+                <li>
+                    <a href="#!">자주묻는질문</a>
+                </li>
+            </ul>
+        </div>
+        <div class="btop-footer">
+            <div class="sub-menu">
+                <ul>
+                    <li>
+                        <a href="#!">제네시스 월드와이드</a>
+                    </li>
+                    <li>
+                        <a href="#!">미디어 센터</a>
+                    </li>
+                    <li>
+                        <a href="#!">제네시스 챔피언십</a>
+                    </li>
+                </ul>
+            </div>
+            <p class="copy">© Copyright 2018 Hyundai Motor Company. All Rights Reserved.</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
